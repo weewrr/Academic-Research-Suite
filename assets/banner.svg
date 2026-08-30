@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="380" viewBox="0 0 1600 380" font-family="-apple-system,'Segoe UI',Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.55" stop-color="#1e293b"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="glowB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#3b82f6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glowG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10b981" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#10b981" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#10b981" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glowA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f59e0b" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f59e0b" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glowP" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#8b5cf6" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <rect width="1600" height="380" rx="18" fill="url(#bg)"/>
+
+  <!-- subtle grid dots -->
+  <g fill="#334155" opacity="0.35">
+    <circle cx="80" cy="60" r="1.6"/><circle cx="160" cy="60" r="1.6"/><circle cx="240" cy="60" r="1.6"/><circle cx="320" cy="60" r="1.6"/>
+    <circle cx="80" cy="140" r="1.6"/><circle cx="160" cy="140" r="1.6"/><circle cx="240" cy="140" r="1.6"/><circle cx="320" cy="140" r="1.6"/>
+    <circle cx="1280" cy="240" r="1.6"/><circle cx="1360" cy="240" r="1.6"/><circle cx="1440" cy="240" r="1.6"/><circle cx="1520" cy="240" r="1.6"/>
+    <circle cx="1280" cy="320" r="1.6"/><circle cx="1360" cy="320" r="1.6"/><circle cx="1440" cy="320" r="1.6"/><circle cx="1520" cy="320" r="1.6"/>
+  </g>
+
+  <!-- floating mini-cards (right side) -->
+  <g opacity="0.9">
+    <rect x="1150" y="70" width="150" height="40" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#3b82f6" stroke-opacity="0.5"/>
+    <text x="1225" y="95" text-anchor="middle" font-size="14" fill="#93c5fd" font-family="Consolas,monospace">paper-discovery</text>
+    <rect x="1330" y="130" width="130" height="40" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#10b981" stroke-opacity="0.5"/>
+    <text x="1395" y="155" text-anchor="middle" font-size="14" fill="#6ee7b7" font-family="Consolas,monospace">peer-review</text>
+    <rect x="1150" y="190" width="160" height="40" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#f59e0b" stroke-opacity="0.5"/>
+    <text x="1230" y="215" text-anchor="middle" font-size="14" fill="#fcd34d" font-family="Consolas,monospace">rebuttal-revision</text>
+    <rect x="1340" y="250" width="120" height="40" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#8b5cf6" stroke-opacity="0.5"/>
+    <text x="1400" y="275" text-anchor="middle" font-size="14" fill="#c4b5fd" font-family="Consolas,monospace">publishing</text>
+  </g>
+
+  <!-- title -->
+  <text x="760" y="150" text-anchor="middle" font-size="72" font-weight="800" fill="#ffffff" letter-spacing="1">Academic Research Suite</text>
+
+  <!-- subtitle -->
+  <text x="760" y="205" text-anchor="middle" font-size="24" fill="#94a3b8">One skill &#183; 7 repositories &#183; 182 skills &#183; 20 merged guides &#183; 148 tool guides</text>
+
+  <!-- divider glows -->
+  <rect x="360" y="248" width="200" height="5" rx="2.5" fill="url(#glowB)" filter="url(#blur)"/>
+  <rect x="580" y="248" width="200" height="5" rx="2.5" fill="url(#glowG)" filter="url(#blur)"/>
+  <rect x="800" y="248" width="200" height="5" rx="2.5" fill="url(#glowA)" filter="url(#blur)"/>
+  <rect x="1020" y="248" width="200" height="5" rx="2.5" fill="url(#glowP)" filter="url(#blur)"/>
+
+  <!-- domain chips -->
+  <g font-size="19" font-weight="600">
+    <rect x="430" y="286" width="160" height="44" rx="22" fill="#3b82f6" fill-opacity="0.16" stroke="#3b82f6" stroke-opacity="0.6"/>
+    <text x="510" y="314" text-anchor="middle" fill="#93c5fd">Discovery</text>
+    <rect x="610" y="286" width="150" height="44" rx="22" fill="#10b981" fill-opacity="0.16" stroke="#10b981" stroke-opacity="0.6"/>
+    <text x="685" y="314" text-anchor="middle" fill="#6ee7b7">Writing</text>
+    <rect x="780" y="286" width="150" height="44" rx="22" fill="#f59e0b" fill-opacity="0.16" stroke="#f59e0b" stroke-opacity="0.6"/>
+    <text x="855" y="314" text-anchor="middle" fill="#fcd34d">Review</text>
+    <rect x="950" y="286" width="160" height="44" rx="22" fill="#8b5cf6" fill-opacity="0.16" stroke="#8b5cf6" stroke-opacity="0.6"/>
+    <text x="1030" y="314" text-anchor="middle" fill="#c4b5fd">Pipeline</text>
+  </g>
+</svg>

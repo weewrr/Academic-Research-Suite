@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="640" viewBox="0 0 920 640" font-family="-apple-system,'Segoe UI',Arial,sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <rect width="920" height="640" fill="#ffffff"/>
+
+  <!-- User request -->
+  <rect x="300" y="46" width="320" height="46" rx="23" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="460" y="75" text-anchor="middle" font-size="15" fill="#334155">Any research or paper task</text>
+
+  <line x1="460" y1="92" x2="460" y2="118" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Router -->
+  <rect x="270" y="122" width="380" height="58" rx="10" fill="#1e293b" filter="url(#shadow)"/>
+  <text x="460" y="147" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">SKILL.md — Intent Router</text>
+  <text x="460" y="167" text-anchor="middle" font-size="12" fill="#94a3b8">matches intent &#8594; loads one focused guide</text>
+
+  <!-- Fan-out arrows -->
+  <line x1="460" y1="180" x2="135" y2="212" stroke="#cbd5e1" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="460" y1="180" x2="355" y2="212" stroke="#cbd5e1" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="460" y1="180" x2="575" y2="212" stroke="#cbd5e1" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="460" y1="180" x2="795" y2="212" stroke="#cbd5e1" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Column 1: Discovery & Reading (blue) -->
+  <rect x="35" y="216" width="200" height="30" rx="15" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="135" y="236" text-anchor="middle" font-size="13" font-weight="700" fill="#1d4ed8">Discovery &amp; Reading</text>
+  <g font-family="Consolas,'Cascadia Code',monospace" font-size="12.5" fill="#1f2937">
+    <rect x="35" y="256" width="200" height="26" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+    <text x="47" y="273">paper-discovery.md</text>
+    <rect x="35" y="290" width="200" height="26" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+    <text x="47" y="307">paper-reading.md</text>
+    <rect x="35" y="324" width="200" height="26" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+    <text x="47" y="341">literature-review.md</text>
+    <rect x="35" y="358" width="200" height="26" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+    <text x="47" y="375">reading-list-profile.md</text>
+    <rect x="35" y="392" width="200" height="26" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+    <text x="47" y="409">idea-generation.md</text>
+  </g>
+
+  <!-- Column 2: Writing & Output (green) -->
+  <rect x="255" y="216" width="200" height="30" rx="15" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/>
+  <text x="355" y="236" text-anchor="middle" font-size="13" font-weight="700" fill="#047857">Writing &amp; Output</text>
+  <g font-family="Consolas,'Cascadia Code',monospace" font-size="12.5" fill="#1f2937">
+    <rect x="255" y="256" width="200" height="26" rx="6" fill="#ecfdf5" stroke="#a7f3d0"/>
+    <text x="267" y="273">paper-writing.md</text>
+    <rect x="255" y="290" width="200" height="26" rx="6" fill="#ecfdf5" stroke="#a7f3d0"/>
+    <text x="267" y="307">paper-sections.md</text>
+    <rect x="255" y="324" width="200" height="26" rx="6" fill="#ecfdf5" stroke="#a7f3d0"/>
+    <text x="267" y="341">figures-slides.md</text>
+    <rect x="255" y="358" width="200" height="26" rx="6" fill="#ecfdf5" stroke="#a7f3d0"/>
+    <text x="267" y="375">office-documents.md</text>
+  </g>
+
+  <!-- Column 3: Review & Quality (orange) -->
+  <rect x="475" y="216" width="200" height="30" rx="15" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="575" y="236" text-anchor="middle" font-size="13" font-weight="700" fill="#b45309">Review &amp; Quality</text>
+  <g font-family="Consolas,'Cascadia Code',monospace" font-size="12.5" fill="#1f2937">
+    <rect x="475" y="256" width="200" height="26" rx="6" fill="#fffbeb" stroke="#fde68a"/>
+    <text x="487" y="273">peer-review.md</text>
+    <rect x="475" y="290" width="200" height="26" rx="6" fill="#fffbeb" stroke="#fde68a"/>
+    <text x="487" y="307">paper-verification.md</text>
+    <rect x="475" y="324" width="200" height="26" rx="6" fill="#fffbeb" stroke="#fde68a"/>
+    <text x="487" y="341">rebuttal-revision.md</text>
+    <rect x="475" y="358" width="200" height="26" rx="6" fill="#fffbeb" stroke="#fde68a"/>
+    <text x="487" y="375">citations.md</text>
+  </g>
+
+  <!-- Column 4: Pipeline & Domain (purple) -->
+  <rect x="695" y="216" width="200" height="30" rx="15" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.5"/>
+  <text x="795" y="236" text-anchor="middle" font-size="13" font-weight="700" fill="#6d28d9">Pipeline &amp; Domain</text>
+  <g font-family="Consolas,'Cascadia Code',monospace" font-size="12.5" fill="#1f2937">
+    <rect x="695" y="256" width="200" height="26" rx="6" fill="#f5f3ff" stroke="#ddd6fe"/>
+    <text x="707" y="273">experiment-research.md</text>
+    <rect x="695" y="290" width="200" height="26" rx="6" fill="#f5f3ff" stroke="#ddd6fe"/>
+    <text x="707" y="307">publishing.md</text>
+    <rect x="695" y="324" width="200" height="26" rx="6" fill="#f5f3ff" stroke="#ddd6fe"/>
+    <text x="707" y="341">grants-clinical.md</text>
+    <rect x="695" y="358" width="200" height="26" rx="6" fill="#f5f3ff" stroke="#ddd6fe"/>
+    <text x="707" y="375">ars-commands.md</text>
+    <rect x="695" y="392" width="200" height="26" rx="6" fill="#f5f3ff" stroke="#ddd6fe"/>
+    <text x="707" y="409">tools-index.md</text>
+  </g>
+
+  <!-- Dashed connectors to resources -->
+  <g stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4 4">
+    <line x1="135" y1="424" x2="135" y2="470"/>
+    <line x1="355" y1="424" x2="355" y2="470"/>
+    <line x1="575" y1="424" x2="575" y2="470"/>
+    <line x1="795" y1="424" x2="795" y2="470"/>
+  </g>
+
+  <!-- Resources band -->
+  <rect x="24" y="474" width="872" height="136" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="460" y="500" text-anchor="middle" font-size="13" font-weight="700" fill="#475569">BACKING RESOURCES — loaded on demand, never all at once</text>
+
+  <g filter="url(#shadow)">
+    <rect x="44" y="514" width="200" height="80" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="44" y="514" width="200" height="6" rx="3" fill="#3b82f6"/>
+    <rect x="264" y="514" width="200" height="80" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="264" y="514" width="200" height="6" rx="3" fill="#10b981"/>
+    <rect x="484" y="514" width="200" height="80" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="484" y="514" width="200" height="6" rx="3" fill="#f59e0b"/>
+    <rect x="704" y="514" width="200" height="80" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="704" y="514" width="200" height="6" rx="3" fill="#8b5cf6"/>
+  </g>
+  <g font-family="Consolas,'Cascadia Code',monospace" font-size="14" font-weight="700" fill="#1f2937">
+    <text x="144" y="545" text-anchor="middle">scripts/</text>
+    <text x="364" y="545" text-anchor="middle">tools/</text>
+    <text x="584" y="545" text-anchor="middle">commands/</text>
+    <text x="804" y="545" text-anchor="middle">templates/</text>
+  </g>
+  <g font-size="11.5" fill="#64748b" text-anchor="middle">
+    <text x="144" y="568">6 source repos</text>
+    <text x="144" y="584">verbatim skills + scripts</text>
+    <text x="364" y="568">148 domain tool guides</text>
+    <text x="364" y="584">chem · bio · ML · data</text>
+    <text x="584" y="568">ARS x16 + PhD x6</text>
+    <text x="584" y="584">command definitions</text>
+    <text x="804" y="568">ResearchClaw HTML</text>
+    <text x="804" y="584">list · profile · note</text>
+  </g>
+</svg>

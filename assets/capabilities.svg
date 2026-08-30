@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="500" viewBox="0 0 920 500" font-family="-apple-system,'Segoe UI',Arial,sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.08"/>
+    </filter>
+    <g id="i-search"><circle cx="-1" cy="-1" r="5.5" fill="none" stroke="#fff" stroke-width="2"/><line x1="3.2" y1="3.2" x2="8" y2="8" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></g>
+    <g id="i-book"><path d="M-8,-5 C-5,-6.5 -2.5,-6.5 0,-5 C2.5,-6.5 5,-6.5 8,-5 L8,5 C5,3.5 2.5,3.5 0,5 C-2.5,3.5 -5,3.5 -8,5 Z" fill="none" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/><line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="#fff" stroke-width="1.8"/></g>
+    <g id="i-doc"><path d="M-5,-7.5 L1.5,-7.5 L6,-3 L6,7.5 L-5,7.5 Z" fill="none" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/><path d="M1.5,-7.5 L1.5,-3 L6,-3" fill="none" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/></g>
+    <g id="i-list"><line x1="-7" y1="-5" x2="7" y2="-5" stroke="#fff" stroke-width="2" stroke-linecap="round"/><line x1="-7" y1="0" x2="7" y2="0" stroke="#fff" stroke-width="2" stroke-linecap="round"/><line x1="-7" y1="5" x2="7" y2="5" stroke="#fff" stroke-width="2" stroke-linecap="round"/></g>
+    <g id="i-bulb"><circle cx="0" cy="-2" r="5" fill="none" stroke="#fff" stroke-width="1.8"/><line x1="-2.2" y1="4.5" x2="2.2" y2="4.5" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/><line x1="-1.5" y1="7" x2="1.5" y2="7" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/></g>
+    <g id="i-pen"><line x1="-6" y1="7" x2="4" y2="-3" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><path d="M4,-3 L7.5,-6.5 L7.5,-2 Z" fill="#fff"/><line x1="-7.5" y1="8.5" x2="-4.5" y2="8.5" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/></g>
+    <g id="i-layers"><rect x="-7" y="-7" width="14" height="4.5" rx="1.5" fill="#fff"/><rect x="-7" y="-2.2" width="14" height="4.5" rx="1.5" fill="#fff" opacity="0.7"/><rect x="1.6" y="2.6" width="14" height="4.5" rx="1.5" fill="#fff" opacity="0.45"/></g>
+    <g id="i-chart"><rect x="-7" y="-1" width="4" height="8" rx="1" fill="#fff"/><rect x="-2" y="-5" width="4" height="12" rx="1" fill="#fff" opacity="0.75"/><rect x="3" y="-8" width="4" height="15" rx="1" fill="#fff" opacity="0.5"/></g>
+    <g id="i-shield"><path d="M0,-8 L6.5,-5.5 L6.5,0.5 C6.5,4.5 3.5,7.3 0,8.8 C-3.5,7.3 -6.5,4.5 -6.5,0.5 L-6.5,-5.5 Z" fill="none" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/><path d="M-3,0 L-1,2.2 L3.2,-2.5" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <g id="i-check"><circle cx="0" cy="0" r="7.5" fill="none" stroke="#fff" stroke-width="1.8"/><path d="M-3.5,0 L-1,2.8 L4,-3" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <g id="i-bubble"><rect x="-7.5" y="-6.5" width="15" height="11" rx="3" fill="none" stroke="#fff" stroke-width="1.8"/><path d="M-2,4.5 L-2,8.5 L2,4.5 Z" fill="#fff"/></g>
+    <g id="i-hash"><line x1="-4" y1="-7" x2="-6" y2="7" stroke="#fff" stroke-width="2" stroke-linecap="round"/><line x1="3" y1="-7" x2="1" y2="7" stroke="#fff" stroke-width="2" stroke-linecap="round"/><line x1="-7.5" y1="-2.5" x2="7" y2="-2.5" stroke="#fff" stroke-width="2" stroke-linecap="round"/><line x1="-7" y1="2.5" x2="7.5" y2="2.5" stroke="#fff" stroke-width="2" stroke-linecap="round"/></g>
+    <g id="i-flask"><path d="M-2.5,-8 L2.5,-8 L2.5,-2.5 L6.5,5.5 C7.5,7.5 6.5,8.5 4.5,8.5 L-4.5,8.5 C-6.5,8.5 -7.5,7.5 -6.5,5.5 L-2.5,-2.5 Z" fill="none" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/><line x1="-4.5" y1="3.5" x2="4.5" y2="3.5" stroke="#fff" stroke-width="1.8"/></g>
+    <g id="i-plane"><path d="M-8,-1.5 L9,-7 L2,1.5 L3,7 L-0.5,4.5 L-2.5,8.5 L-3,2.5 Z" fill="#fff"/></g>
+    <g id="i-award"><circle cx="0" cy="-2.5" r="5" fill="none" stroke="#fff" stroke-width="1.8"/><path d="M-3,1.5 L-5,8.5 L0,6 L5,8.5 L3,1.5" fill="none" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/></g>
+    <g id="i-grid"><rect x="-7" y="-7" width="6" height="6" rx="1.5" fill="#fff"/><rect x="1" y="-7" width="6" height="6" rx="1.5" fill="#fff" opacity="0.7"/><rect x="-7" y="1" width="6" height="6" rx="1.5" fill="#fff" opacity="0.7"/><rect x="1" y="1" width="6" height="6" rx="1.5" fill="#fff" opacity="0.45"/></g>
+  </defs>
+
+  <rect width="920" height="500" fill="#ffffff"/>
+  <text x="460" y="34" text-anchor="middle" font-size="16" font-weight="700" fill="#1e293b">One skill, 17 capabilities</text>
+  <text x="460" y="54" text-anchor="middle" font-size="12" fill="#94a3b8">say what you need &#8212; the router picks the guide</text>
+
+  <!-- Column headers -->
+  <g font-size="13" font-weight="700" text-anchor="middle">
+    <rect x="20"  y="74" width="205" height="30" rx="15" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/><text x="122" y="94" fill="#1d4ed8">Discovery &amp; Reading</text>
+    <rect x="241" y="74" width="205" height="30" rx="15" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/><text x="343" y="94" fill="#047857">Writing &amp; Output</text>
+    <rect x="462" y="74" width="205" height="30" rx="15" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/><text x="564" y="94" fill="#b45309">Review &amp; Quality</text>
+    <rect x="683" y="74" width="205" height="30" rx="15" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.5"/><text x="785" y="94" fill="#6d28d9">Pipeline &amp; Domain</text>
+  </g>
+
+  <!-- Card generator: rect + icon circle + use + title + sub -->
+  <!-- Col 1 (blue) -->
+  <g filter="url(#shadow)"><rect x="20" y="118" width="205" height="64" rx="10" fill="#ffffff" stroke="#e2e8f0"/></g>
+  <circle cx="52" cy="150" r="16" fill="#3b82f6"/><use href="#i-search" x="52" y="150"/>
+  <text x="78" y="146" font-size="13.5" font-weight="700" fill="#1e293b">Find Papers</text>
+  <text x="78" y="164" font-size="10.5" fill="#94a3b8">arXiv &#183; PubMed &#183; Scholar</text>
+
+  <g filter="url(#shadow)"><rect x="20" y="192" width="205" height="64" rx="10" fill="#ffffff" stroke="#e2e8f0"/></g>
+  <circle cx="52" cy="224" r="16" fill="#3b82f6"/><use href="#i-book" x="52" y="224"/>
+  <text x="78" y="220" font-size="13.5" font-weight="700" fill="#1e293b">Deep Reading</text>
+  <text x="78" y="238" font-size="10.5" fill="#94a3b8">DNL notes &#183; scoring</text>
+
+  <g filter="url(#shadow)"><rect x="20" y="266" width="205" height="64" rx="10" fill="#ffffff" stroke="#e2e8f0"/></g>
+  <circle cx="52" cy="298" r="16" fill="#3b82f6"/><use href="#i-doc" x="52" y="298"/>
+  <text x="78" y="294" font-size="13.5" font-weight="700" fill="#1e293b">Literature Review</text>
+  <text x="78" y="312" font-size="10.5" fill="#94a3b8">PRISMA &#183; gap analysis</text>
+
+  <g filter="url(#shadow)"><rect x="20" y="340" width="205" height="64" rx="10" fill="#ffffff" stroke="#e2e8f0"/></g>
+  <circle cx="52" cy="372" r="16" fill="#3b82f6"/><use href="#i-list" x="52" y="372"/>
+  <text x="78" y="368" font-size="13.5" font-weight="700" fill="#1e293b">Reading List</text>
+  <text x="78" y="386" font-size="10.5" fill="#94a3b8">kanban &#183; HTML profile</text>
+
+  <g filter="url(#shadow)"><rect x="20" y="414" width="205" height="64" rx="10" fill="#ffffff" stroke="#e2e8f0"/></g>
+  <circle cx="52" cy="446" r="16" fill="#3b82f6"/><use href="#i-bulb" x="52" y="446"/>
+  <text x="78" y="442" font-size="13.5" font-weight="700" fill="#1e293b">Research Ideas</text>
+  <text x="78" y="460" font-size="10.5" fill="#94a3b8">gap-driven proposals</text>
+
+  <!-- Col 2 (green) -->
+  <g filter="url(#shadow)"><rect x="241" y="118" width="205" height="64" rx="10" fill="#ffffff" stroke="#e2e8f0"/></g>
+  <circle cx="273" cy="150" r="16" fill="#10b981"/><use href="#i-pen" x="273" y="150"/>
+  <text x="299" y="146" font-size="13.5" font-weight="700" fill="#1e293b">Paper Writing</text>
+  <text x="299" y="164" font-size="10.5" fill="#94a3b8">9-step workflow</text>
+
+  <g filter="url(#shadow)"><rect x="241" y="192" width="205" height="64" rx="10" fill="#ffffff" stroke="#e2e8f0"/></g>
+  <circle cx="273" cy="224" r="16" fill="#10b981"/><use href="#i-layers" x="273" y="224"/>
+  <text x="299" y="220" font-size="13.5" font-weight="700" fill="#1e293b">Section Playbooks</text>
+  <text x="299" y="238" font-size="10.5" fill="#94a3b8">intro &#8594; conclusion</text>
+
+  <g filter="url(#shadow)"><rect x="241" y="266" width="205" height="64" rx="10" fill="#ffffff" stroke="#e2e8f0"/></g>
+  <circle cx="273" cy="298" r="16" fill="#10b981"/><use href="#i-chart" x="273" y="298"/>
+  <text x="299" y="294" font-size="13.5" font-weight="700" fill="#1e293b">Figures &amp; Posters</text>
+  <text x="299" y="312" font-size="10.5" fill="#94a3b8">colorblind-safe &#183; LaTeX</text>
+
+  <g filter="url(#shadow)"><rect x="241" y="340" width="205" height="64" rx="10" fill="#ffffff" stroke="#e2e8f0"/></g>
+  <circle cx="273" cy="372" r="16" fill="#10b981"/><use href="#i-doc" x="273" y="372"/>
+  <text x="299" y="368" font-size="13.5" font-weight="700" fill="#1e293b">Office Documents</text>
+  <text x="299" y="386" font-size="10.5" fill="#94a3b8">docx &#183; pdf &#183; pptx &#183; xlsx</text>
+
+  <!-- Col 3 (amber) -->
+  <g filter="url(#shadow)"><rect x="462" y="118" width="205" height="64" rx="10" fill="#ffffff" stroke="#e2e8f0"/></g>
+  <circle cx="494" cy="150" r="16" fill="#f59e0b"/><use href="#i-shield" x="494" y="150"/>
+  <text x="520" y="146" font-size="13.5" font-weight="700" fill="#1e293b">Peer Review</text>
+  <text x="520" y="164" font-size="10.5" fill="#94a3b8">5-seat reviewer panel</text>
+
+  <g filter="url(#shadow)"><rect x="462" y="192" width="205" height="64" rx="10" fill="#ffffff" stroke="#e2e8f0"/></g>
+  <circle cx="494" cy="224" r="16" fill="#f59e0b"/><use href="#i-check" x="494" y="224"/>
+  <text x="520" y="220" font-size="13.5" font-weight="700" fill="#1e293b">Verification</text>
+  <text x="520" y="238" font-size="10.5" fill="#94a3b8">claims &#183; retractions</text>
+
+  <g filter="url(#shadow)"><rect x="462" y="266" width="205" height="64" rx="10" fill="#ffffff" stroke="#e2e8f0"/></g>
+  <circle cx="494" cy="298" r="16" fill="#f59e0b"/><use href="#i-bubble" x="494" y="298"/>
+  <text x="520" y="294" font-size="13.5" font-weight="700" fill="#1e293b">Rebuttal</text>
+  <text x="520" y="312" font-size="10.5" fill="#94a3b8">reviewer response</text>
+
+  <g filter="url(#shadow)"><rect x="462" y="340" width="205" height="64" rx="10" fill="#ffffff" stroke="#e2e8f0"/></g>
+  <circle cx="494" cy="372" r="16" fill="#f59e0b"/><use href="#i-hash" x="494" y="372"/>
+  <text x="520" y="368" font-size="13.5" font-weight="700" fill="#1e293b">Citations</text>
+  <text x="520" y="386" font-size="10.5" fill="#94a3b8">BibTeX &#183; metadata check</text>
+
+  <!-- Col 4 (purple) -->
+  <g filter="url(#shadow)"><rect x="683" y="118" width="205" height="64" rx="10" fill="#ffffff" stroke="#e2e8f0"/></g>
+  <circle cx="715" cy="150" r="16" fill="#8b5cf6"/><use href="#i-flask" x="715" y="150"/>
+  <text x="741" y="146" font-size="13.5" font-weight="700" fill="#1e293b">Experiments</text>
+  <text x="741" y="164" font-size="10.5" fill="#94a3b8">design &#8594; reproduce</text>
+
+  <g filter="url(#shadow)"><rect x="683" y="192" width="205" height="64" rx="10" fill="#ffffff" stroke="#e2e8f0"/></g>
+  <circle cx="715" cy="224" r="16" fill="#8b5cf6"/><use href="#i-plane" x="715" y="224"/>
+  <text x="741" y="220" font-size="13.5" font-weight="700" fill="#1e293b">Publishing</text>
+  <text x="741" y="238" font-size="10.5" fill="#94a3b8">venue &#183; LaTeX &#183; package</text>
+
+  <g filter="url(#shadow)"><rect x="683" y="266" width="205" height="64" rx="10" fill="#ffffff" stroke="#e2e8f0"/></g>
+  <circle cx="715" cy="298" r="16" fill="#8b5cf6"/><use href="#i-award" x="715" y="298"/>
+  <text x="741" y="294" font-size="13.5" font-weight="700" fill="#1e293b">Grants &amp; Clinical</text>
+  <text x="741" y="312" font-size="10.5" fill="#94a3b8">NSF &#183; reports &#183; CDS</text>
+
+  <g filter="url(#shadow)"><rect x="683" y="340" width="205" height="64" rx="10" fill="#ffffff" stroke="#e2e8f0"/></g>
+  <circle cx="715" cy="372" r="16" fill="#8b5cf6"/><use href="#i-grid" x="715" y="372"/>
+  <text x="741" y="368" font-size="13.5" font-weight="700" fill="#1e293b">148 Tool Guides</text>
+  <text x="741" y="386" font-size="10.5" fill="#94a3b8">chem &#183; bio &#183; ML &#183; data</text>
+</svg>
